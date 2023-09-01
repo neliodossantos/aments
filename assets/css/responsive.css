@@ -1,0 +1,33 @@
+.search-hero-search{
+    padding: 30px 0px;
+    width: 30%;
+}
+.section-image-hero{
+    width: 65%;
+    height: 380px;
+}
+@media (max-width: 1100px) {
+    .search-hero-search{
+        flex-direction: column;
+    }
+    .search-hero-search{
+        width: 100%;
+    }
+    .hero-area-bg-2{
+        width: 100%;
+    }
+
+    .section-image-hero{
+        width: 100%;
+        display: block;
+    }
+    .hero-area-single{
+        width: 100%;
+    }
+    .hero-img-2 {
+        width: 100%;
+    }
+    #section-hero{
+        width: 100%;
+    }
+}
